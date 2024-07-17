@@ -13,12 +13,9 @@ Efficient Task Editing: Make quick changes to task details and deadlines with a 
 
 ## Features:
 
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- [Features](
+- 1 dawd
+- 2 awdawd)
 ## How To Install Dependencies
 ```sh
 npm install 
