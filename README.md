@@ -1,8 +1,19 @@
-# React + Vite
+# Todo React Project
+## Real Demo 
+https://todo-react-application-101.netlify.app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## UI( website version )
+<img src="https://raw.githubusercontent.com/Nitin-M-1/Todo-React-Project/master/src/assets/webImg.JPG"/>
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How To Install Dependencies
+```sh
+npm install 
+```
+## How to run this code
+
+```sh
+npm run dev
+```
+
+
