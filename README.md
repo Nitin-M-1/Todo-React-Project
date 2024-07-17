@@ -10,7 +10,7 @@ https://todo-react-application-101.netlify.app
 ```sh
 npm install 
 ```
-## How to run this code
+## How To Run This Code
 
 ```sh
 npm run dev
