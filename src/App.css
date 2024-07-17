@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+.App {
+  width: 80%;
+  margin: auto;
+  font-family: "Work Sans", sans-serif;
+}
+.main-logo {
+  width: 40px;
+}

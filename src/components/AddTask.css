@@ -1,0 +1,38 @@
+section {
+  margin-top: 100px;
+  text-align: center;
+}
+.main-form-box {
+  background-color: rgb(255, 255, 255);
+  width: max-content;
+  margin: auto;
+  border: 1px solid rgba(122, 122, 122, 0.387);
+  border-radius: 3px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.385);
+}
+form {
+  padding: 10px;
+}
+form > input {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid rgba(122, 122, 122, 0.387);
+  margin: 10px;
+  border-radius: 3px;
+  outline: none;
+}
+form > button {
+  padding: 10px 15px;
+  background-color: rgb(65, 165, 91);
+  border: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  form > input {
+    width: 150px;
+  }
+}

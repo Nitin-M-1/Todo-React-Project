@@ -1,0 +1,78 @@
+.header-bar {
+  margin-top: 20px;
+
+  background-color: aliceblue;
+  border: 1px solid rgba(0, 0, 0, 0.199);
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.321);
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.main-logo {
+  padding: 10px 10px 10px 20px;
+}
+.main-logo-text {
+  font-size: 25px;
+  color: gray;
+}
+.themeSelector {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+.themeSelector span {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(0, 0, 0, 0.34);
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.light {
+  background-color: whitesmoke;
+}
+.selected {
+  transform: scale(1.5);
+}
+.medium {
+  background-color: blueviolet;
+}
+.dark {
+  background-color: rgb(35, 28, 57);
+}
+.gOne {
+  background-color: rgb(11, 51, 28);
+  background: url("../assets/gonebg.JPG") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+.gTwo {
+  background: url("../assets/gtwobg.JPG") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+
+@media (max-width: 500px) {
+  .header-bar {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0 10px;
+    gap: 5px;
+  }
+}
